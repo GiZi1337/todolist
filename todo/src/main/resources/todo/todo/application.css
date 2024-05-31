@@ -1,0 +1,65 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #3a7bd5, #00d2ff);
+    -fx-padding: 20px;
+}
+
+.text-field, .date-picker, .choice-box, .list-view {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+}
+
+.text-field::prompt-text {
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+}
+
+.date-picker::prompt-text {
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+}
+
+.choice-box {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+    -fx-border-color: #007BFF;
+    -fx-border-width: 1;
+    -fx-background-color: #007BFF;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.check-box {
+    -fx-padding: 10;
+    -fx-text-fill: #333333;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+.image-view {
+    -fx-padding: 10;
+}
